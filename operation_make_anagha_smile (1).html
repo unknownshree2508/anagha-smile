@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Operation: Make Anagha Smile 💗</title>
+<style>
+:root{--pink:#ff8fb1;--rose:#ff5d91;--deep:#8b2450;--cream:#fff7fb;--ink:#613247}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;overflow-x:hidden;color:var(--ink);font-family:"Trebuchet MS",system-ui,sans-serif;background:linear-gradient(160deg,#ffe7f0 0%,#fff8fc 48%,#ffe2ec 100%)}
+body:before,body:after{content:"";position:fixed;z-index:-1;border-radius:50%;filter:blur(2px);opacity:.5}
+body:before{width:340px;height:340px;background:#ffc5dc;top:-120px;left:-110px}
+body:after{width:400px;height:400px;background:#ffd2e6;right:-150px;bottom:-180px}
+.floaties{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.floaty{position:absolute;bottom:-50px;animation:rise linear infinite;opacity:.7;font-size:22px}
+@keyframes rise{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}
+main{position:relative;z-index:1;max-width:850px;margin:auto;padding:24px 16px 60px}
+.top{display:flex;justify-content:center;align-items:center;gap:8px;color:#b94b76;font-weight:800;letter-spacing:.08em;font-size:.8rem}
+.logo-heart{animation:pulse 1.3s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.25)}}
+h1{text-align:center;color:var(--deep);font-size:clamp(2rem,7vw,4.4rem);line-height:1.03;margin:18px 0 10px;letter-spacing:-.04em}
+.subtitle{text-align:center;max-width:580px;margin:0 auto 22px;font-size:1.05rem;line-height:1.6}
+.card{background:rgba(255,255,255,.82);border:2px solid #ffd0e1;border-radius:30px;box-shadow:0 16px 45px rgba(186,75,119,.13);padding:clamp(18px,4vw,32px);backdrop-filter:blur(8px)}
+.scene{position:relative;height:290px;display:flex;align-items:center;justify-content:center;gap:22px;overflow:hidden;border-radius:24px;background:linear-gradient(#fff1f7,#ffe1ee);margin-bottom:24px}
+.character{position:relative;width:150px;height:185px;flex:0 0 auto;transition:transform .6s}
+.boy{animation:bob 2.5s ease-in-out infinite}
+.girl{animation:bob 2.8s ease-in-out infinite reverse}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.head{position:absolute;top:25px;left:20px;width:110px;height:110px;border-radius:48% 48% 46% 46%;background:#ffd6bd;border:3px solid #5b3541}
+.hair{position:absolute;top:14px;left:17px;width:116px;height:62px;border-radius:60% 50% 30% 35%;background:#51313c;border:3px solid #5b3541;z-index:2}
+.hair:after{content:"";position:absolute;right:8px;bottom:-8px;width:34px;height:30px;border-radius:0 0 70% 40%;background:#51313c;transform:rotate(20deg)}
+.eye{position:absolute;top:66px;left:48px;width:8px;height:13px;border-radius:50%;background:#57303c;z-index:3}
+.eye.right{left:92px}
+.blush{position:absolute;top:82px;left:34px;width:22px;height:12px;border-radius:50%;background:#ff9fba;opacity:.75;z-index:3}
+.blush.right{left:89px}
+.smile{position:absolute;top:86px;left:66px;width:20px;height:11px;border-bottom:3px solid #a54d62;border-radius:50%;z-index:3}
+.body{position:absolute;bottom:0;left:12px;width:126px;height:90px;border-radius:55px 55px 20px 20px;background:#ff8fb4;border:3px solid #5b3541}
+.boy .body{background:#9d8bd8}
+.girl .hair{background:#6d3a4a}
+.anger{position:absolute;top:3px;right:-5px;font-size:28px;animation:shake .35s infinite;z-index:5}
+@keyframes shake{25%{transform:rotate(12deg)}75%{transform:rotate(-12deg)}}
+.cloud{position:absolute;top:22px;left:50%;transform:translateX(-50%);font-size:62px;transition:all .8s;filter:drop-shadow(0 5px 2px #e8b6c9)}
+.cloud span{position:absolute;top:18px;left:0;right:0;text-align:center;font-size:24px}
+.scene.soothe .cloud{top:-120px;opacity:0;transform:translateX(180px) rotate(30deg)}
+.scene.soothe .anger{animation:none;opacity:0;transform:scale(0);transition:.4s}
+.scene.soothe .girl{transform:translateY(-12px) scale(1.04)}
+.scene.soothe .girl .smile{border-bottom:0;border-top:3px solid #a54d62;top:91px}
+.scene.soothe .boy{transform:translateY(-12px)}
+.heart-pop{position:absolute;font-size:28px;animation:pop 1.2s forwards;pointer-events:none}
+@keyframes pop{0%{opacity:0;transform:scale(.2)}25%{opacity:1}100%{opacity:0;transform:translateY(-150px) rotate(30deg) scale(1.4)}}
+.note{text-align:center;font-size:1.05rem;line-height:1.75;margin:0 auto 20px;max-width:650px}
+.note strong{color:#c13e70}
+.promise{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0 26px}
+.promise div{background:#fff0f6;border:1px solid #ffd0e1;border-radius:16px;padding:14px 10px;text-align:center;font-weight:700;font-size:.92rem}
+.promise span{display:block;font-size:1.5rem;margin-bottom:5px}
+.buttons{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+button{border:0;border-radius:999px;padding:15px 22px;font:inherit;font-weight:800;cursor:pointer;transition:transform .2s,box-shadow .2s}
+button:hover{transform:translateY(-3px)}
+.primary{color:white;background:linear-gradient(135deg,#ff6398,#e83e7d);box-shadow:0 8px 18px #f5a2bf}
+.secondary{color:#a43b68;background:#fff0f6;border:2px solid #ffc3d9}
+.response{min-height:42px;text-align:center;margin:18px 0 0;font-weight:700;color:#a83e6d;line-height:1.5}
+.footer{text-align:center;margin-top:25px;color:#b15a7b;font-size:.9rem}
+.tiny{font-size:.78rem;opacity:.8}
+@media(max-width:520px){.scene{height:255px;gap:0}.character{transform:scale(.82);margin:0 -10px}.scene.soothe .boy,.scene.soothe .girl{transform:scale(.86) translateY(-10px)}.promise{grid-template-columns:1fr}.promise div{padding:10px}.promise span{display:inline;margin-right:8px}.subtitle{font-size:.96rem}}
+</style>
+</head>
+<body>
+<div class="floaties" id="floaties"></div>
+<main>
+  <div class="top"><span class="logo-heart">💗</span> A LITTLE LOVE WEBSITE <span class="logo-heart">💗</span></div>
+  <h1>Operation:<br>Make Anagha Smile</h1>
+  <p class="subtitle">A tiny mission from your favourite silly boy… who said something he really, really wishes he could take back.</p>
+  <section class="card">
+    <div class="scene" id="scene" aria-label="Cute cartoon couple and an angry cloud">
+      <div class="cloud" id="cloud">☁️<span>GRR!</span></div>
+      <div class="character boy">
+        <div class="hair"></div><div class="head"></div>
+        <div class="eye"></div><div class="eye right"></div><div class="blush"></div><div class="blush right"></div><div class="smile"></div><div class="body"></div>
+      </div>
+      <div class="character girl">
+        <div class="anger">💢</div><div class="hair"></div><div class="head"></div>
+        <div class="eye"></div><div class="eye right"></div><div class="blush"></div><div class="blush right"></div><div class="smile"></div><div class="body"></div>
+      </div>
+    </div>
+    <p class="note">My sweetest <strong>Anagha</strong>,<br>
+      you were only telling me to take care of myself because you love me.<br>
+      And I answered with <strong>“keep quiet… shut your mouth.”</strong><br>
+      That was rude and hurtful. You didn't deserve it. I'm truly sorry. 🥺
+    </p>
+    <div class="promise">
+      <div><span>🫶</span>I'll listen kindly</div>
+      <div><span>🌷</span>I'll respect your feelings</div>
+      <div><span>💌</span>I'll take better care</div>
+    </div>
+    <div class="buttons">
+      <button class="primary" id="magic">Tap to send the anger cloud away 💨</button>
+      <button class="secondary" id="hug">Send a virtual hug 🫂</button>
+    </div>
+    <p class="response" id="response" aria-live="polite">P.S. You don't have to forgive me right away. I'll give you time and listen. ❤️</p>
+  </section>
+  <p class="footer">Made with a sorry heart & lots of love<br><strong>Forever yours, Shree ❤️</strong><br><span class="tiny">P.S. The anger cloud is dramatic. Your feelings are always real and important.</span></p>
+</main>
+<script>
+const scene=document.getElementById('scene'),response=document.getElementById('response');
+const floaties=document.getElementById('floaties');
+const symbols=['♡','💗','💕','✦','🌸'];
+for(let i=0;i<24;i++){const f=document.createElement('span');f.className='floaty';f.textContent=symbols[i%symbols.length];f.style.left=Math.random()*100+'%';f.style.animationDuration=(8+Math.random()*12)+'s';f.style.animationDelay=(-Math.random()*18)+'s';f.style.fontSize=(14+Math.random()*18)+'px';floaties.appendChild(f)}
+function hearts(n=18){for(let i=0;i<n;i++){const h=document.createElement('span');h.className='heart-pop';h.textContent=['💗','💕','💖','🌸'][i%4];h.style.left=(15+Math.random()*70)+'%';h.style.top=(35+Math.random()*40)+'%';h.style.animationDelay=(Math.random()*.45)+'s';scene.appendChild(h);setTimeout(()=>h.remove(),1800)}}
+document.getElementById('magic').addEventListener('click',()=>{scene.classList.add('soothe');hearts(28);response.textContent='The grumpy cloud ran away… but I know I still need to make things right. I love you, Bayko. 💗'});
+document.getElementById('hug').addEventListener('click',()=>{hearts(12);response.textContent='Sending you the biggest, gentlest virtual hug. 🫂 No pressure to reply until you feel ready.'});
+</script>
+</body>
+</html>
